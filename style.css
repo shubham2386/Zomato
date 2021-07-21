@@ -37,6 +37,9 @@ img{
 .btn{
     padding: 10px;
 }
+
+
+
 .button{
     margin: 0 50px;
     font-size: 1rem;
@@ -101,6 +104,8 @@ section{
 #button2{
    margin: 1.5rem 0; 
 }
+
+
 .video{
     
     text-align: center;
@@ -290,5 +295,32 @@ footer ul{
     list-style-type: none;
     color: white;
 }
+.btn :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.logo :hover{
+    transform: scale(1.15);
+    transform: rotate(+360deg);
+    transition: 1s ease;
+    cursor: pointer;
+}
 
+.items :hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .25s ease;
+}
+.images_rest :hover{
+    cursor: pointer;
+    padding-bottom: 10px;
+    transition: .25s ease;
 
+}
+.images_rest2 :hover{
+    cursor: pointer;
+    padding-top: 10px;
+    transition: .25s ease;
+
+}
